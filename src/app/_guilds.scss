@@ -40,3 +40,10 @@
 .unreadMentionsIndicatorTop-gA6RCh {
   margin-top: 48px;
 }
+
+.circleIconButton-jET_ig {
+  background: var(--material-bg-secondary);
+  svg path {
+    fill: var(--material-primary);
+  }
+}
