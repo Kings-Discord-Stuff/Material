@@ -1,5 +1,21 @@
-# Material
+![Material Logo](./assets/Material-Logo.png)
+![Discord Material](./assets/discord_material.png)
 A minimal theme following [Googles Material Design](https://material.io/) guidelines.
 
+## Things that haven't been done yet:
+- [ ] File upload modal & chat item
+- [ ] Chat spoilers
+- [ ] Embeds
+- [ ] Invites
+- [ ] Code blocks & inline code blocks
+- [ ] Settings window
 
-Thanks to [Winston Sepruko](https://github.com/WinstonSepruko) for helping get this set up!
+## Things that need to be fixed:
+- [ ] Profile picture in user menu has a diferent background
+ 
+(If you find any more of issues, feel free to make a bug report :D)
+
+
+#
+
+Special thanks to [Winston Sepruko](https://github.com/WinstonSepruko) for helping get this set up!
