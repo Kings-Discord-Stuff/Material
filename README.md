@@ -1,5 +1,6 @@
-![Material Logo](./assets/Material-Logo.png)
-![Discord Material](./assets/discord_material.png)
+<img align="center" width="250" height="250" src="./assets/Material-Logo.png">
+<img align="center" width="250" src="./assets/discord_material.png">
+
 A minimal theme following [Googles Material Design](https://material.io/) guidelines.
 
 ## Things that haven't been done yet:
