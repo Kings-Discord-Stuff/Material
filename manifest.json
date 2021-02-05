@@ -1,11 +1,8 @@
 {
-  "name": "Materal",
+  "name": "Material",
   "description": "A minimal theme based off of the Google Material UI principal",
   "version": "0.0.1",
   "license": "MIT",
-  "author": {
-    "name": "king_ultron99",
-    "id": "148203660088705025"
-  },
-  "theme": "main.scss"
+  "author": "king_ultron99",
+  "theme": "_index.scss"
 }

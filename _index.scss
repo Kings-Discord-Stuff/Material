@@ -1,14 +1,114 @@
+@use './src/app/app';
+@use './src/app/user';
+@use './src/app/guilds';
+@use './src/app/icons';
+
+// Modals and popouts
+@use './src/modals-popouts/context-menus';
+
+// Chat Styling
+@use './src/chat/chat';
+@use './src/chat/channels';
+@use './src/chat/members';
+
+// Home Styling
+@use './src/home/sidebar';
+@use './src/home/friends';
+@use './src/home/library';
+
 :root {
+  --material-border-radius: 5px;
+  --material-border-radius-input: 5px 5px 0 0;
+  
+  // primary colours
+  --material-primary: #677bc1;
+  --material-primary-light: #a5b9ff;
+  --material-primary-dark: #3f5ca8;
+  // transparent primaries
+  --material-primary-transparent: #7289da3f;
+  --material-primary-light-transparent: #a5b8ff61;
+  --material-primary-dark-transparent: #3f5da878;
+  // interaction primaries
+  --material-primary-hover: #7289dacb;
+  --material-primary-light-hover: #a5b8ffe0;
+  --material-primary-dark-hover: #3f5da8d9;
+
+  --material-red: #B00020;
+  
+  --material-txt-button: #000;
+  --material-txt-link: #001240;
+  --material-txt-white: #fff;
+  --material-txt-black: #000;
+
+  --material-surface-primary-overlay-01dp: #7289da07;
+  --material-surface-primary-overlay-02dp: #7289da11;
+  --material-surface-primary-overlay-03dp: #7289da1a;
+  --material-surface-primary-overlay-04dp: #7289da28;
+  --material-surface-primary-overlay-06dp: #7289da45;
+  --material-surface-primary-overlay-08dp: #7289da61;
+  --material-surface-primary-overlay-12dp: #7289da7d;
+  --material-surface-primary-overlay-24dp: #7289daa5;
+
+  //transitons
+  --material-transition-ease: .2s ease;
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 
 .theme-dark,
 html.theme-dark,
 html.theme-dark #app-mount .theme-light .root-1gCeng,
 html.theme-dark .force-theme.theme-light {
+  
+  --material-bg-main: #121212;
+  --material-bg-secondary: #222222;
+  --material-bg-tertiary: #292929;
+
+  --material-bg-main-modal:#1f1f1f;
+  --material-bg-secondary-modal:#2f2f2f;
+  --material-bg-tertiary-modal:#353535;
+
+  --material-txt-main: #fff;
+  --material-txt-secondary: #dcdcdc;
+  --material-txt-tertiary: #afafaf;
+  --material-txt-input: #ffffff4f;
+
+
+  --material-surface-overlay-01dp: #6a6a6a07;
+  --material-surface-overlay-02dp: #6a6a6a11;
+  --material-surface-overlay-03dp: #6a6a6a1a;
+  --material-surface-overlay-04dp: #6a6a6a28;
+  --material-surface-overlay-06dp: #6a6a6a45;
+  --material-surface-overlay-08dp: #6a6a6a61;
+  --material-surface-overlay-12dp: #6a6a6a7d;
+  --material-surface-overlay-24dp: #6a6a6aa5;
 }
 
 .theme-light,
 html.theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
+  --material-bg-main: #dfdfdf;
+  --material-bg-secondary:#ffffff;
+  --material-bg-tertiary: #e6e6e6;
+
+  //--material-bg-modal:;
+  //--material-bg-secondary-modal:;
+  //--material-bg-tertiary-modal:;
+
+  --material-txt-main: #121212;
+  --material-txt-secondary: #2d2d2d;
+  --material-txt-tertiary: #252525;
+  --material-txt-input: #0000003f;
+
+  
+  --material-surface-overlay-01dp: #afafaf07;
+  --material-surface-overlay-02dp: #afafaf11;
+  --material-surface-overlay-03dp: #afafaf1a;
+  --material-surface-overlay-04dp: #afafaf28;
+  --material-surface-overlay-06dp: #afafaf45;
+  --material-surface-overlay-08dp: #afafaf61;
+  --material-surface-overlay-12dp: #afafaf7d;
+  --material-surface-overlay-24dp: #afafafa5;
 }

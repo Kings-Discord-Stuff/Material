@@ -1,0 +1,30 @@
+.privateChannels-1nO12o, .scroller-1JbKMe {
+  background: var(--material-bg-tertiary);
+}
+
+.privateChannels-1nO12o {
+  .searchBar-6Kv8R2 {
+    background: var(--material-primary);
+    box-shadow: 0 0 10px #000;
+  }
+}
+
+.channel-2QD9_O {
+  &.clickable-1JJAn8.container-2Pjhx-:hover {
+    background: var(--material-surface-primary-overlay-02dp);
+  }
+  &.selected-aXhQR6 {
+    background: var(--material-surface-primary-overlay-04dp);
+  }
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  color: var(--material-txt-secondary);
+  background: var(--material-primary-dark);
+  width: fit-content;
+  padding: 0 8px 0 8px;
+
+  &:hover {
+    background: var(--material-primary-dark-hover);
+  }
+}

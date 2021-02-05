@@ -1,0 +1,46 @@
+.sidebar-2K8pFh{
+  z-index: 999;
+  background: none;
+
+  .header-2V-4Sw {
+    background: var(--material-primary);
+    box-shadow: 0 0 10px #000;
+
+    &:hover {
+      background: var(--material-primary-hover);
+    }
+
+    .guildIconContainer-2FW_iA {
+      div div {
+        svg path {
+          fill: var(--material-txt-main);
+        }
+
+        .childContainer-1wxZNh svg path {
+          fill: var(--material-primary)
+        }
+      }
+    }
+  }
+
+  .container-3w7J-x {
+    background: var(--material-bg-tertiary);
+  }
+  .content-1x5b-n {
+    padding-right: 8px;
+  }
+  .iconVisibility-sTNpHs:hover .content-1x5b-n {
+    background: var(--material-surface-primary-overlay-02dp);
+  }
+  .modeSelected-346R90 .content-1x5b-n {
+    background: var(--material-surface-primary-overlay-04dp);
+  }
+}
+
+.container-3w7J-x {
+  border-radius: 0 0 0 var(--material-border-radius);
+}
+
+.platform-win .sidebar-2K8pFh {
+  border-radius: 0;
+}

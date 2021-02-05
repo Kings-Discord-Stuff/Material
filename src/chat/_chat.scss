@@ -1,0 +1,196 @@
+.scrollerInner-2YIMLh {
+  background: var(--material-bg-secondary);
+}
+.wrapper-3vR61M, .wrapper-1F5TKx {
+  background: var(--material-bg-secondary);
+}
+
+.akaBadge-1M-1Gw {
+  background: var(--material-primary-dark);
+  border-radius: var(--material-border-radius);
+}
+
+.chat-3bRxxu {
+  background: var(--material-bg-secondary);
+
+  .divider-JfaTT5{
+    &.divider-3_HH5L {
+      margin-left: 12px;
+    }
+    &.isUnread-3Ef-o9 {
+      border-color: var(--material-red);
+      .unreadPill-2HyYtt {
+        background: var(--material-red);
+        svg path {
+          fill: var(--material-red);
+          color: var(--material-red);
+        }
+      }
+      .content-1o0f9g {
+        color: var(--material-red);
+      }
+    }
+    .content-1o0f9g {
+      position: absolute;
+      left: 0;
+      flex: 0 0 auto;
+      background-color: var(--material-bg-secondary);
+      color: var(--material-surface-primary-overlay-12dp);
+    }
+  }
+
+
+  .container-1r6BKw.themed-ANHk51 {
+    background: var(--material-primary);
+    box-shadow: 0 0 10px #000;
+    .children-19S4PO {
+      &::after {
+      background: none;
+      }
+      .topic-TCb_qw {
+        color: var(--material-txt-secondary);
+        .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB {
+          color: var(--material-txt-link);
+        }
+      }
+      .divider-3FBTu8 {
+        background: var(--material-txt-tertiary);
+      }
+    }
+    .wrapper-3WhCwL {
+      color: var(--material-primary-dark);
+      background: var(--material-primary-light-transparent);
+      border-radius: var(--material-border-radius);
+    }
+    .followButton-L6L-Us {
+      background: var(--material-primary-dark-transparent);
+
+      &:hover {
+        background: var(--material-primary-dark);
+      }
+    }
+  }
+
+  .iconWrapper-2OrFZ1 {
+    svg {
+      path {
+        fill: var(--material-txt-secondary);
+      }
+    }
+  }
+  .searchBar-3dMhjb{
+    background: none;
+    border-bottom: solid 1px var(--material-txt-tertiary);
+    border-radius: var(--material-border-radius-input);
+    color: var(--material-txt-main);
+    transition: all var(--material-transition-ease);
+    
+    &:focus-within {
+      background: var(--material-primary-dark-transparent);
+      border-bottom: solid 2px var(--material-primary-dark);
+    }
+    .public-DraftEditorPlaceholder-inner {
+      color: var(--material-txt-input);
+    }
+    .icon-38sknP {
+      .iconContainer-O4O2CN {
+        .icon-3cZ1F_ {
+          path {
+            fill: var(--material-txt-input);
+          }
+        }
+      }
+    }
+  }
+
+  .form-2fGMdU {
+    
+    .scrollableContainer-2NUZem {
+      background-color: var(--material-bg-tertiary);
+      border-bottom: solid 2px var(--material-surface-overlay-24dp);
+      border-radius: var(--material-border-radius-input);
+      //box-shadow: 0 2.5px 10px #000;
+      transition: var(--material-transition-ease);
+      
+      .inner-MADQqc{
+        transition: var(--material-transition-ease);
+      }
+    }
+
+    .webkit-HjD9Er .buttons-3JBrkn {
+      margin: 0;
+    }
+    
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: .5rem;
+      width: 100%;
+      background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(var(--material-bg-secondary))),
+                  linear-gradient(180deg,rgba(0,0,0,0) 0,var(--material-bg-secondary));
+    }
+  }
+}
+
+.theme-dark {
+  .form-2fGMdU {
+    &:focus-within{
+      .scrollableContainer-2NUZem {
+        border-color: var(--material-primary);
+      }
+      .inner-MADQqc {
+        background-color: var(--material-surface-overlay-02dp);
+      }
+    }
+    .attachButton-2dnuIu {
+      div svg path {
+        fill: var(--material-primary-dark-transparent);
+        transition: var(--material-transition-ease);
+      }
+
+      &:hover div svg path {
+        fill: var(--material-primary-light-transparent);
+      }
+    }
+  }
+}
+
+.theme-light {
+  .form-2fGMdU:focus-within .inner-MADQqc {
+    background-color: var(--material-surface-overlay-08dp);
+  }
+  .attachButton-2dnuIu {
+    div svg path {
+      fill: var(--material-primary-dark);
+      transition: var(--material-transition-ease);
+    }
+
+    &:hover div svg path {
+      fill: var(--material-primary);
+    }
+  }
+}
+
+.wrapper-2aW0bm {
+  background-color: var(--material-bg-secondary-modal);
+}
+
+.channelTextArea-rNsIhG {
+  background: none;
+  .container-2fRDfG {
+    background: none;
+    .colorHeaderSecondary-3Sp3Ft {
+      color: var(--material-primary);
+    }
+    .actions-NlfMQc {
+      .mentionButton-3710-W {
+        color: var(--material-txt-main);
+      }
+      svg path {
+        fill: var(--material-txt-main);
+      }
+    }
+  }
+}

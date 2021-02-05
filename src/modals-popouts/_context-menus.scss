@@ -1,0 +1,101 @@
+.scroller-3BxosC {
+  padding: 0;
+  margin: 6px 8px 6px 8px;
+}
+
+.item-1tOPte {
+  .iconContainer-2-XQPY {
+    .icon-1S6UIr{
+      display: none;
+    }
+  }
+}
+#guild-header-popout-leave {
+  color: var(--material-red);
+  margin: 0;
+
+  &:hover {
+    color: var(--material-txt-white);
+    background: var(--material-red);
+  }
+}
+
+.colorDanger-2qLCe1.focused-3afm-j {
+  color: var(--material-txt-white) !important; // im sorry...
+  background: var(--material-red);
+}
+
+div[aria-label="Set Status"] {
+  background-color: var(--material-bg-main-modal);
+  box-shadow: 0 0 20px #000;
+}
+
+#popout_1627 {
+  top: 70px !important;
+  #search-results {
+    background-color: var(--material-bg-secondary-modal);
+    box-shadow: 0 0 20px #000;
+    .option-96V44q.searchOption-zQ-1l6 {
+      &::after {
+        display: none;
+      }
+      &.selected-rZcOL- {
+        background-color: var(--material-surface-overlay-06dp);
+      }
+    }
+  }
+}
+
+#emoji-picker-tab-panel {
+  .emojiPicker-3PwZFl {
+    background-color: var(--material-bg-tertiary-modal);
+    .header-8ilj5e {
+      background: var(--material-primary);
+      .searchBar-5di9mG {
+        background: none;
+        border-bottom: solid 2px var(--material-txt-tertiary);
+        border-radius: var(--material-border-radius-input);
+        color: var(--material-txt-main);
+        transition: var(--material-transition-ease);
+        &:focus-within {
+          background: var(--material-primary-dark-transparent);
+          border-bottom: solid 2px var(--material-primary-dark);
+        }
+        input {
+          &::placeholder {
+            color: var(--material-txt-input);
+          }
+        }
+        .iconContainer-O4O2CN {
+          svg path {
+            color: var(--material-txt-input);
+          }
+        }
+      }
+    }
+    .listItems-1uJgMC{
+      left: 0px !important;
+      padding: 8px;
+      .wrapper-1-Fsb8.header-ywPcAE {
+        background-color: var(--material-bg-secondary-modal);
+        border-radius: var(--material-border-radius);
+      }
+      .categorySection-2sgp74 {
+        border-radius: var(--material-border-radius);
+      }
+    }
+  }
+  .wrapper-2Gsate {
+    background-color: var(--material-bg-main-modal);
+  }
+  .inspector-S2gM3e.inspector-3LQtX9 {
+    background: var(--material-bg-main-modal);
+  }
+}
+.wrapper-1-Fsb8:after {
+  display: none;
+}
+
+.unreadBar-3t3sYc {
+  background: var(--material-primary);
+}
