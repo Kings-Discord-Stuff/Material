@@ -1,4 +1,4 @@
-<img align="center" width="250" height="250" src="./assets/Material-Logo.png">
+<img align="center" width="250" height="250" src="./assets/icon.png">
 <img align="center" width="250" src="./assets/discord-material-colour.png">
 
 A minimal theme following [Googles Material Design](https://material.io/) guidelines.
