@@ -2,6 +2,7 @@
 @use './src/app/user';
 @use './src/app/guilds';
 @use './src/app/icons';
+@use './src/app/settings';
 
 // Modals and popouts
 @use './src/modals-popouts/context-menus';
@@ -15,6 +16,9 @@
 @use './src/home/sidebar';
 @use './src/home/friends';
 @use './src/home/library';
+
+// Embed Styling
+@use './src/embeds/richembed';
 
 :root {
   --material-border-radius: 5px;

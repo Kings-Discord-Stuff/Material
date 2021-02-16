@@ -1,0 +1,104 @@
+.sidebarRegionScroller-3MXcoP {
+  background: var(--material-bg-main);
+}
+.sidebarRegion-VFTUkN {
+  flex: none;
+}
+.contentRegionScroller-26nc1e {
+  background: var(--material-bg-secondary);
+  .contentColumn-2hrIYH {
+    max-width: 1250px;
+  }
+  .children-rWhLdy {
+    .background-1QDuV2 {
+      background: var(--material-bg-tertiary);
+      box-shadow: 0 0 20px var(--material-bg-main);
+      .fieldList-21DyL8 {
+        background: var(--material-bg-tertiary-modal);
+      }
+    }
+  }
+}
+
+.item-26Dhrx {
+  background: var(--material-bg-tertiary );
+  &[aria-checked=true] {
+    background: var(--material-surface-primary-overlay-04dp);
+  }
+  &:hover:not([aria-checked=true]) {
+    background: var(--material-surface-primary-overlay-02dp);
+  }
+}
+
+.cardPrimary-1Hv-to {
+  background: var(--material-surface-overlay-02dp);
+}
+
+.accountList-33MS45 {
+  background: var(--material-surface-primary-overlay-06dp);
+}
+.connection-1fbD7X {
+  background: none;
+  overflow: hidden;
+  .connectionHeader-2MDqhu {
+    background: var(--material-surface-primary-overlay-06dp);
+  }
+  .connectionOptionsWrapper-3KIj1Z {
+    background: var(--material-surface-primary-overlay-03dp);
+  }
+}
+
+// nitro page
+.hero-EvfTTA {
+  max-width: none;
+}
+.theme-dark .feature-2w65J5 {
+  background: var(--material-bg-tertiary);
+}
+// boost page
+.cardWrapper-2Min21 {
+  background: var(--material-bg-tertiary);
+  .card-3AyPWq:hover {
+    background: var(--material-surface-primary-overlay-03dp);
+  }
+}
+
+// billing page
+.theme-dark .codeRedemptionRedirect-1wVR4b, .theme-light .codeRedemptionRedirect-1wVR4b {
+  background: var(--material-primary);
+  .anchor-3Z-8Bb {
+    color: var(--material-txt-link);
+  }
+}
+
+// voice and video 
+.container-3PXSwK {
+  border-radius: 3px;
+  .progress-1IcQ3A {
+    background: var(--material-bg-tertiary);
+  }
+  .notches-1sAcEM.gray-3_LNYR {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23677bc1'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+  }
+}
+
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  background: var(--material-surface-overlay-08dp);
+}
+
+.theme-dark .bar-2Qqk5Z, .theme-light .bar-2Qqk5Z {
+  background: var(--material-bg-secondary-modal);
+}
+
+
+.grabber-3mFHz2 {
+  width: 24px;
+  border-radius: 50%;
+  background: var(--material-primary);
+  border: none;
+}
+.barFill-23-gu- {
+  background: var(--material-surface-primary-overlay-24dp);
+}
+
+//TODO switches
