@@ -96,3 +96,44 @@
 .unreadBar-3t3sYc {
   background: var(--material-primary);
 }
+
+.menu-3sdvDG {
+  background: var(--material-bg-tertiary-modal);
+  .button-F9qN4n {
+    background: var(--material-bg-tertiary);
+  }
+}
+
+.contentWrapper-SvZHNd {
+  background: var(--material-primary);
+  .navButtonActive-1MkytQ {
+    background: var(--material-primary-dark);
+  }
+  .header-1TOWci {
+    background: var(--material-primary);
+    .searchBar--fTZYa {
+      background: none;
+      border-bottom: solid 2px var(--material-txt-tertiary);
+      border-radius: var(--material-border-radius-input);
+      color: var(--material-txt-main);
+      transition: var(--material-transition-ease);
+      &:focus-within {
+        background: var(--material-primary-dark-transparent);
+        border-bottom: solid 2px var(--material-primary-dark);
+      }
+      input {
+        &::placeholder {
+          color: var(--material-txt-input);
+        }
+      }
+      .iconContainer-O4O2CN {
+        svg path {
+          color: var(--material-txt-input);
+        }
+      }
+    }
+  }
+  .content-ySCtCx {
+    background: var(--material-bg-tertiary);
+  }
+}
