@@ -4,12 +4,12 @@
 A minimal theme following [Googles Material Design](https://material.io/) guidelines.
 
 ## Things that haven't been done yet:
-- [x] File upload modal & chat item
+- [x] ~~File upload modal & chat item~~
 - [ ] Chat spoilers
-- [x] Embeds
+- [x] ~~Embeds~~
 - [ ] Invites
-- [x] Code blocks & inline code blocks
-- [x] Settings window
+- [x] ~~Code blocks & inline code blocks~~
+- [x] ~~Settings window~~
 
 ## Things that need to be fixed:
 - [x] Profile picture in user menu has a diferent background
