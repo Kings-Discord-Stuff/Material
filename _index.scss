@@ -6,6 +6,8 @@
 
 // Modals and popouts
 @use './src/modals-popouts/context-menus';
+@use './src/modals-popouts/search';
+@use './src/modals-popouts/upload';
 
 // Chat Styling
 @use './src/chat/chat';

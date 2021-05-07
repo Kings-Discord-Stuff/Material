@@ -1,0 +1,50 @@
+.searchResultsWrap-3-pOjs {
+  background: none;
+
+  .scroller-3GIiMh.thin-1ybCId.scrollerBase-289Jih {
+    #search-results {
+      box-shadow: none;
+      background: none;
+
+      div[role="button"] .colorHeaderPrimary-26Jzh-.size16-1P40sf.channelName-1JRO3C {
+        background: none;
+      }
+      .container-2j2llN .searchResult-9tQ1uo {
+        background-color: var(--material-bg-tertiary);
+      }
+    }
+    
+  }
+  .searchHeader-2XoQg7 {
+    background-color: var(--material-bg-tertiary);
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+
+.theme-dark .focused-2bY0OD {
+  background-color: var(--material-bg-tertiary-modal);
+}
+
+.container-3qKHyN {
+  .quickswitcher-3JagVE {
+    background-color: var(--material-bg-main-modal);
+    .input-2VB9rf {
+        background: none;
+        border-bottom: solid 2px var(--material-txt-tertiary);
+        border-radius: var(--material-border-radius-input);
+        color: var(--material-txt-main);
+        transition: all var(--material-transition-ease);
+        
+        &:focus-within {
+          background: var(--material-primary-dark-transparent);
+          border-bottom: solid 2px var(--material-primary-dark);
+        }
+    }
+  }
+  .scroller-zPkAnE {
+    background-color: var(--material-bg-main-modal);
+    .content-3YMskv .result-oB0z-- {
+      margin-right: 1rem;
+    }
+  }
+}

@@ -13,11 +13,17 @@
         fill: var(--material-primary);
       }
     }
+    
   }
-  &::after {
+}
+
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
     content: 'MATERIAL';
     color: var(--material-txt-input);
-  }
+    position: absolute;
+    font-weight: 700;
+    font-size: 10px;
+    font-style: normal;
 }
 
 .base-3dtUhz, .sidebar-2K8pFh, .chat-3bRxxu, .threadSidebar-1o3BTy  {
